@@ -1,0 +1,197 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Calibri} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+%To reduce the height of the top margin uncomment: 
+%\addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''Calibri'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Stanislaus \textsc{Stadlmann}}\bigskip\par} % Your name
+
+\section{Persönliche Daten}
+
+\begin{tabular}{rl}
+\textsc{Geburtsort und -datum} & Wien, Österreich  | 14.08.1992 \\
+\textsc{Addresse:} & Bertheaustr. 1, D-37075 Göttingen \\
+\textsc{Telefon:} & +49 173 692 5237\\
+\textsc{Email:} & \href{mailto:stanislaus@stadlmann.cm}{stanislaus@stadlmann.cm} \\
+\textsc{GitHub Seite:} & \href{https://github.com/Stan125}{github.com/Stan125}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Bildung}
+
+%-----------------------------------------------
+
+\begin{tabular}{rl}
+\textsc{Aktuell}& M.Sc. in Applied Statistics , \textbf{Georg-August-Universität} Göttingen\\
+\textsc{Okt 2015}& \emph{{{\O}}-Note: 1,7 | Schwerpunkte: Wirtschaftswissenschaften}\\
+&\\
+
+
+%-----------------------------------------------
+
+
+\textsc{Mrz 2015}& B.A. in Economics, \textbf{Georg-August-Universität} Göttingen\\
+\textsc{Okt 2011}& \emph{{{\O}}-Note: 2,0 | Schwerpunkte: Statistik / Ökonometrie}\\
+&\footnotesize{Bachelor-Arbeit: "Modeling the Relationship between
+Unemployment Rate and}\\
+&\footnotesize{Population Density including other
+Socioeconomic Factors in Districts of
+Germany}\\
+& \footnotesize{using Semi-Parametric Regression"} \\
+&\\
+
+%------------------------------------------------
+
+\textsc{Aug 2013} & Auslandssemester, \textbf{University of Ireland}, Galway\\
+\textsc{Dez 2013}& \emph{Schwerpunkte: Wirtschaft Irlands, Geld \& Bankenwesen}\\
+&\\
+
+\textsc{Jun 2011} & Gymnasiale Oberstufe / Abitur, \textbf{Altkönigschule}, Kronberg im Taunus\\
+\textsc{Aug 2008}& \emph{{\O}-Note: 2,0 | Leistungskurse: Polititk und Wirtschaft, Chemie}\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Praktische Erfahrung}
+
+\begin{tabular}{r|p{11cm}}
+
+%------------------------------------------------
+
+\emph{Mrz 2016} & Praktikant \& Werkstudent bei \textbf{STATWORX}, Frankfurt\\
+\textsc{Mai 2015} & \emph{Data Science - Team} \\
+& \footnotesize{
+$\bullet$ Erstellung und Präsentieren von umfangreichen Lern-Inhalten zum Thema Statistik und R
+
+$\bullet$ Abwicklung von mehreren Projekten (bis zu 3 Monate) bei Firmen- sowie Privatkunden zum Thema Data Science, Statistik und Modellierung}\\
+\multicolumn{2}{c}{} \\
+
+
+%------------------------------------------------
+
+\emph{Apr 2015} & Praktikant bei \textbf{Landesbank Baden-Württemberg}, Stuttgart\\
+\textsc{Nov 2014} & \emph{Credit Research} \\
+& \footnotesize{
+$\bullet$ Mitwirkung bei der Erstellung und Pflege eines Kreditwürdigkeitsmodells
+
+$\bullet$ Erstellung von qualitativen und quantitativen Publikationen zum Thema Staatsanleihen}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Okt 2014} & Tutor für Statistik an der \textbf{Georg-August-Universität}, Göttingen\\
+\textsc{Okt 2012} & \emph{Lehrstuhl für Statistik und Ökonometrie}\\
+& \footnotesize{
+$\bullet$ Halten von mehrwöchigen Tutorien zu Statistik und dem Programm R
+
+$\bullet$ Vor- und Aufbereiten von Lerninhalten
+
+$\bullet$ Halten von einer Statistik-Großübung vor ca. 200 Studenten}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2015} & Lehr-Person bei \textbf{Ländliche Erwachsenen-Bildung}, Göttingen\\
+\textsc{ \& Aug 2014}& $\bullet$ \footnotesize{Organisieren, Vorbereiten und Vortragen eines fünftägigen Seminars zum Thema} \\
+
+\textsc{\& Aug 2013}& "\footnotesize{\emph{Statistik im Qualitätsmanagement}"}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+%\section{Sprachen}
+
+%\begin{tabular}{rlrl}
+%\textsc{Deutsch:} & Muttersprache & \textsc{Französisch:} & Basiskenntnisse\\
+%\textsc{Englisch:} & Fließend &\textsc{Spanisch:}& Basiskenntnisse\\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+\section{Programm-Kenntnisse}
+\begin{tabular}{rl}
+Basis: & Python, Stata, eViews, Minitab, VBA\\
+
+Fortgeschritten: & SPSS, Excel, Word, PowerPoint, LaTeX\\
+
+Experte: & R
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	STATISTICS SKILLS
+%----------------------------------------------------------------------------------------
+%\section{Kenntnisse in der Statistik}
+%\begin{tabular}{rl}
+%Basis: & Multivariate Analysen: \\
+
+%Fortgeschritten: & SPSS, Excel, Word, PowerPoint, LaTeX\\
+
+%Experte: & R
+%\end{tabular}
+
+\end{document}
