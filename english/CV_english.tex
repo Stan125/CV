@@ -1,3 +1,7 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !TeX spellcheck = en-US,en-DE
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Plasmati Graduate CV
 % LaTeX Template
@@ -28,13 +32,14 @@
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont{Calibri} % Main document font
+\usepackage{longtable} % For tables that go over mutiple pages...
 
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 
 \usepackage{fullpage} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-%To reduce the height of the top margin uncomment: 
+%To reduce the height of the top margin uncomment:
 %\addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
@@ -76,8 +81,8 @@
 %-----------------------------------------------
 
 \begin{tabular}{rl}
-\textsc{Current}& M.Sc. in Applied Statistics , \textbf{Georg-August-University} Göttingen\\
-\textsc{Oct 2015}& \emph{{{\O}}-Grade: 1.6 | Focus: Economics}\\
+\textsc{Dec 2017}& M.Sc. in Applied Statistics , \textbf{Georg-August-University} Göttingen\\
+\textsc{Oct 2015}& \emph{{{\O}}-Grade: 1.3 | Focus: GLM's, GAM's}\\
 & \footnotesize{Linear and Generalized Linear Models} \\
 & \footnotesize{R Programming} \\
 &\\
@@ -99,7 +104,7 @@ Germany}\\
 %------------------------------------------------
 
 \textsc{Aug 2013} & Semester Abroad, \textbf{University of Ireland}, Galway\\
-\textsc{Dec 2013} & \footnotesize{Ireland, Europe and the Global Economy}\\
+\textsc{Dec 2013} & \footnotesize{Courses include: Ireland, Europe and the Global Economy,}\\
 & \footnotesize{Money \& Banking} \\
 &\\
 
@@ -109,23 +114,38 @@ Germany}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE 
+%	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
 \section{Work Experience}
 
-\begin{tabular}{r|p{11cm}}
+\begin{longtable}{r|p{10cm}}
+
+  %------------------------------------------------
+
+  \emph{Current} & Research Assistant \textbf{Georg-August-University}, Göttingen\\
+  \textsc{Feb 2017} & \emph{Chair of Statistics and Econometrics}\\
+  & \footnotesize{
+  $\bullet$ Working on R packages surrounding distributional regression and computational statistics}\\
+  \multicolumn{2}{c}{} \\
+
+  %------------------------------------------------
+
+  \emph{Sep 2017} & Tutor for Econometrics I at \textbf{Georg-August-University}, Göttingen\\
+  \textsc{Apr 2017} & \emph{Chair of Statistics and Econometrics}\\
+  & \footnotesize{$\bullet$ Holding multiple weekly tutorials about Econometrics and R
+
+  $\bullet$ Helping correct the exam written by students}\\
+  \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 \emph{Mch 2016} & Intern \& Working Student at \textbf{STATWORX}, Frankfurt\\
 \textsc{May 2015} & \emph{Data Science - Team} \\
-& \footnotesize{
-$\bullet$ Create and present multiple training courses about Statistics and R
+& \footnotesize{$\bullet$ Create and present multiple training courses about Statistics and R
 
 $\bullet$ Was in charge of several Statistics, Data Science and Modeling projects at private and enterprise customers}\\
 \multicolumn{2}{c}{} \\
-
 
 %------------------------------------------------
 
@@ -139,7 +159,7 @@ $\bullet$ Wrote multiple qualitative and quantitative publications about state b
 
 %------------------------------------------------
 
-\textsc{Current} & Tutor for Statistics at \textbf{Georg-August-University}, Göttingen\\
+\emph{Mch 2017} & Tutor for Statistics at \textbf{Georg-August-University}, Göttingen\\
 \textsc{Oct 2012} & \emph{Chair of Statistics and Econometrics}\\
 & \footnotesize{
 $\bullet$ Holding multiple tutorials about Statistics and R per week
@@ -149,14 +169,7 @@ $\bullet$ Held a statistics practical in front of 200 students}\\
 
 %------------------------------------------------
 
-\textsc{Aug 2015} & Lecturer at \textbf{Rural Adult Education (LEB)}, Göttingen\\
-\textsc{ \& Aug 2014}& $\bullet$ \footnotesize{Organisation, preparation and lecturing of a five-day seminar about "Statistics in} \\
-\textsc{\& Aug 2013}& \footnotesize{\emph{Quality Management}"}\\
-\multicolumn{2}{c}{} \\
-
-%------------------------------------------------
-
-\end{tabular}
+\end{longtable}
 
 
 %----------------------------------------------------------------------------------------
@@ -167,17 +180,17 @@ $\bullet$ Held a statistics practical in front of 200 students}\\
 
 \begin{tabular}{rlrl}
 \textsc{German:} & First Language & \textsc{French:} & Basics\\
-\textsc{English:} & Fluent &\textsc{Spanish:}& Basics (but currently studying)\\
+\textsc{English:} & Fluent &\textsc{Spanish:}& Intermediate\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS 
+%	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 \section{Computer Skills}
 \begin{tabular}{rl}
 Basics: & Python, Stata, eViews, Minitab, VBA\\
 
-Advanced: & SPSS, Excel, Word, PowerPoint, LaTeX\\
+Advanced: & SPSS, MS Office, LaTeX, qGIS, MatLab\\
 
 Expert: & R
 \end{tabular}
